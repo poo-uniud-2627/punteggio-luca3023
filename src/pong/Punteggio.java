@@ -37,7 +37,7 @@ public class Punteggio {
         if (puntiPerVincere < 1 || scartoMinimo < 1) {
             throw new IllegalArgumentException(
                 "I punti per vincere e lo scarto devono essere almeno 1"
-            );
+            )
         }
 
         this.puntiPerVincere = puntiPerVincere;
